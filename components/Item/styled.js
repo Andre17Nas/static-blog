@@ -4,9 +4,7 @@ export const Item = styled.div`
     width: 288px;
     height: 278px;
     background-color: #FFF;
-    margin-left: 40px;
-    display: flex;
-    flex-direction: column;
+    margin-left: 20px;
     text-align: center;
     align-items: center;
 
@@ -17,7 +15,7 @@ export const Item = styled.div`
         width: 100%;
         height: 150px; 
         background-color: #d0d0d0;
-        margin-bottom: 0;
+        margin: 0;
     }
 
     button{

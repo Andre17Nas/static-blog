@@ -1,8 +1,9 @@
 ---
-title: 'Uma Guia rapido sobre markDown'
+title: 'Seu Blog em 30min'
 date: '24 June 2021'
 excerpt: 'o que é um excerpt'
-cover_image: ''
+cover_image: '/image/img4.jpg'
+alt: 'Photo by Lorant Fulop from FreeImages'
 ---
 # Um Pequeno Guia sobre Markdown
 

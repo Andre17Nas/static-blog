@@ -1,4 +1,7 @@
 .ItemWrapper{
-    display: flex;
-    flex-direction: row;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 60vw;
+    height: 90vh;
 }
