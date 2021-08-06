@@ -2,3 +2,4 @@
 
 > Em Desenvolvimento ...
 
+Link do projeto: https://static-blog-beta.vercel.app/

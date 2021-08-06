@@ -4,6 +4,10 @@ import Head from 'next/head'
 import matter from 'gray-matter'
 import PostItem from '../components/Item'
 import styles from '../styles/Item.module.css'
+import {sortByDate} from '../utils'
+
+/* for contentful CMS */
+import {createClient} from 'contentful'
 
 export default function Home({posts}) {
   return (
@@ -61,7 +65,7 @@ export async function getStaticProps(){
 
   return {
       props: {
-          posts: posts, 
+          posts: posts.sort(sortByDate), 
       },
   }
 }
