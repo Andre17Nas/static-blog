@@ -1,0 +1,35 @@
+[33mcommit bd2030d122e761c3eaa08a7f07974a6cca8263d0[m[33m ([m[1;36mHEAD -> [m[1;32mcontentfulcms[m[33m, [m[1;32mmain[m[33m)[m
+Author: André Nas <andrenascontato@gmail.com>
+Date:   Fri Aug 6 19:14:54 2021 -0300
+
+    Refatorando o projeto: configurando contenful CMS
+
+[33mcommit ec523656357ebd0473338244406be8db19ac4d5f[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: André Nas <andrenascontato@gmail.com>
+Date:   Fri Aug 6 11:57:09 2021 -0300
+
+    fixed - key e img para buildar na vercel
+
+[33mcommit dd6a8e64235fb08ea634512b3f3938b8881fa883[m
+Author: André Nas <andrenascontato@gmail.com>
+Date:   Fri Aug 6 10:54:30 2021 -0300
+
+    Gerando posts com rotas dinamicas
+
+[33mcommit 3e531d7fc91585a1890ad8497ed33f7128e3ee49[m
+Author: André Nas <andrenascontato@gmail.com>
+Date:   Thu Aug 5 11:27:27 2021 -0300
+
+    Lendo arquivos markdown do blog
+
+[33mcommit b341d7e10689120a83e0c1eacf85390d1f4a0317[m
+Author: André Nas <andrenascontato@gmail.com>
+Date:   Wed Aug 4 08:20:18 2021 -0300
+
+    first commit - basic template com styled components
+
+[33mcommit 6ca7e4fa36988be91795b6d00a3b69ba47af2a14[m
+Author: André Nas <andrenascontato@gmail.com>
+Date:   Mon Aug 2 16:36:30 2021 -0300
+
+    Initial commit from Create Next App
