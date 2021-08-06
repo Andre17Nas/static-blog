@@ -13,7 +13,7 @@ const GlobalStyles = createGlobalStyle`
       padding: 20px;
       background-color: #FFF;
       width: 90%;
-      height: 100vh;
+      height: 100%;
       display: flex;
       flex-direction: column;
     }

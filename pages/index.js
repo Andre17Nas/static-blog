@@ -20,6 +20,7 @@ export default function Home({posts}) {
         <div className={styles.ItemWrapper}>
           {posts.map((post, index) => (
             <PostItem
+            key={index}
             post={post}         
             />
           ))}
