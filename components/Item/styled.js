@@ -18,6 +18,15 @@ export const Item = styled.div`
         margin: 0;
     }
 
+    h3 {
+        margin: 10px;
+        height: 40px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 40ch;
+    }
+
     button{
         width: 160px;
         height: 48px;
