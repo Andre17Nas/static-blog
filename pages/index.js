@@ -9,7 +9,7 @@ import {sortByDate} from '../utils'
 /* for contentful CMS */
 import {createClient} from 'contentful'
 
-export default function Home({posts}) {
+export default function Home({posts, cposts}) {
   return (
     <>
       <Head>
@@ -22,9 +22,9 @@ export default function Home({posts}) {
         <tr/>
       </div>
         <div className={styles.ItemWrapper}>
-          {posts.map((post, index) => (
+          {cposts.map((post) => (
             <PostItem
-            key={index}
+            key={post.sys.id}
             post={post}         
             />
           ))}
@@ -61,11 +61,20 @@ export async function getStaticProps(){
 
   })
 
-  console.log(posts)
+  /* for contentful CMS */
+  const client = createClient({ 
+    space: process.env.CONTENTFUL_SPACE_ID, 
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN })
+
+    const res = await client.getEntries({
+      content_type: 'post'
+    })
+
 
   return {
       props: {
           posts: posts.sort(sortByDate), 
+          cposts: res.items
       },
   }
 }

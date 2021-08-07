@@ -12,7 +12,7 @@ const GlobalStyles = createGlobalStyle`
       margin: 0 auto;
       padding: 20px;
       background-color: #FFF;
-      width: 90%;
+      width: 80%;
       height: 100%;
       display: flex;
       flex-direction: column;
